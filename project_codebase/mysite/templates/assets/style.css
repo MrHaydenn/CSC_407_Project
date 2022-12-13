@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+body, div, ul, ol, li, p {
+    margin: 20px;
+    padding: 0px;
+}
+
+title { display: contents;
+        position: center;
+}
+
+header {
+    height: 400px;
+    background-image: url(header.jpg);
+    background-size: cover;
+    margin: 10px;
+    padding: 30px 20px 20px 20px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    
+}
+
+
+title { font-family: montserrat; }
+
+.container a {
+    color: #f2f2f2;
+    background-color: #333;
+    background-size: 8px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: noto serif;
+    padding: 15px 15px 15px 15px;
+    position: center;
+
+}
+nav:hover { color: #ddd; }
+
+h1 {
+    color: #555;
+    font-family: montserrat;
+    font-size: 2rem;
+    font-weight: 300;
+    
+}
+
+h2 {
+    color: #555;
+    font-family: montserrat;
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+p { color: #555;
+    font-family: noto serif;
+    margin: 0.5rem; 
+    
+}
+
+
+
+
+footer { padding: 14px 20px 14px 20px;
+         background-color: #333;
+
+       
+         color: #f2f2f2;
+}
+
+img { width: 60px; }
+
+li a {
+    background-color: #b68e2c;
+    text-transform: uppercase;
+    font-family: montserrat;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 4px 6px 4px 6px;
+}
+
+.course-number { font-weight: bold; }
+
+table {
+    border: solid;
+    border-color: #81282e;
+    border-width: 1px;
+    color: #555;
+    border-collapse: collapse;
+    font-family: noto serif;
+    box-sizing: border-box;
+
+}
+
+#core-header {
+    font-family: montserrat;
+    background-color: #81282e;
+    color: white;
+    background-clip: border-box;
+
+}
+
+
+tr:nth-child(even) {
+    background-color: #b45b61;
+    color: white;
+    background-clip: border-box;
+
+}
+
+td {
+    padding: 3px 15px 3px 15px;
+}
+
+section {
+    column-count: 2;
+    column-gap: 0px;
+    
+}
+
+.left-col {
+    width: 60%;
+}
+
+.right-col {
+    width: 40%;
+}
+
+.couse-title {
+    margin: 10px;
+    color: #555;
+    font-family: noto serif;
+}
